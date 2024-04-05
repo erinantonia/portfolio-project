@@ -1,20 +1,21 @@
 :root {
-  --primary-font: "Poppins", sans-serif;
-  --secondary-font: "Playfair Display", serif;
-  --accent-color: #6c63ff;
+  --primary-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
 }
 body {
   text-align: center;
-  font-family: var(--primary-font);
+  font-family: var(--primary-font-family);
 }
 
 h1 {
   font-size: 96px;
-  font-family: var(--secondary-font);
+  font-family: var(--heading-font-family);
 }
 
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   padding: 200px;
 }
 
@@ -35,7 +36,7 @@ h1 {
   padding: 18px 46px;
   border-radius: 4px;
   color: #ffffff;
-  background: var(--accent-color);
+  background: var(--primary-color);
 }
 
 .icon-bar i {
