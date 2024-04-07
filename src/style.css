@@ -1,27 +1,35 @@
 :root {
-  --primary-font-family: "Poppins", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
   --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
 }
 body {
-  text-align: center;
-  font-family: var(--primary-font-family);
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
 }
 
 h1 {
   font-size: 96px;
-  font-family: var(--heading-font-family);
 }
 
 .hero {
   background: var(--secondary-color);
-  padding: 200px;
+  padding: 200px 0;
 }
 
 .hero h2 {
   font-weight: 400;
   font-size: 24px;
+  font-family: var(--default-font-family);
 }
 
 .hero p {
@@ -39,7 +47,40 @@ h1 {
   background: var(--primary-color);
 }
 
+.homepage-quote {
+  color: #272142;
+  font-size: 18px;
+  margin: 100px 0;
+}
+
+.homepage-body p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #272142;
+}
+
+.homepage-body h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.btn-brand-outline {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 25px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
 .icon-bar i {
   font-size: 24px;
   padding: 15px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 70px;
+  }
 }
