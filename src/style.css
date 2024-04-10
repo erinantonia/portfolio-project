@@ -15,6 +15,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 
 .hero {
   background: var(--secondary-color);
-  padding: 200px 0;
+  padding: 150px 20px;
 }
 
 .hero h2 {
@@ -47,6 +48,15 @@ h1 {
   background: var(--primary-color);
 }
 
+.btn-brand-outline {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 25px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
 .homepage-quote {
   color: #272142;
   font-size: 18px;
@@ -65,13 +75,29 @@ h1 {
   font-weight: bold;
 }
 
-.btn-brand-outline {
-  font-weight: 500;
+.about-page-body {
+  padding: 150px 20px;
+}
+
+.about-page-content {
+  padding: 30px;
+}
+
+.about-page-body h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-page-body h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-page-body p {
+  line-height: 30px;
   font-size: 16px;
-  padding: 18px 25px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
 }
 
 .icon-bar i {
