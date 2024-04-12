@@ -159,6 +159,12 @@ footer .social-icons a {
   background: var(--secondary-color);
   border-radius: 50%;
   margin: 0 20px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-icons a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 
 @media (max-width: 900px) {
