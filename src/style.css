@@ -22,6 +22,10 @@ h1 {
   font-size: 96px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   line-height: 30px;
   font-size: 16px;
@@ -130,9 +134,31 @@ a.active {
   border-radius: 4px;
 }
 
-.icon-bar i {
-  font-size: 24px;
-  padding: 15px;
+footer {
+  padding: 50px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 5px;
+  line-height: 100px;
+}
+
+footer .email-link {
+  color: #272142;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+footer .social-icons a {
+  font-size: 18px;
+  padding: 10px 15px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  margin: 0 20px;
 }
 
 @media (max-width: 900px) {
