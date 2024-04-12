@@ -27,6 +27,27 @@ p {
   font-size: 16px;
 }
 
+nav img {
+  max-height: 100px;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  line-height: 100px;
+  padding: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover,
+a.active {
+  color: var(--primary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 200px 20px;
@@ -61,7 +82,7 @@ p {
 }
 
 .content-container {
-  padding: 150px 20px;
+  padding: 50px 20px;
 }
 
 .content-container h1 {
