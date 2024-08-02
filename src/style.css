@@ -31,6 +31,10 @@ p {
   font-size: 16px;
 }
 
+p a {
+  color: var(--primary-color);
+}
+
 nav img {
   max-height: 100px;
 }
@@ -110,6 +114,10 @@ a.active {
 
 .content {
   padding: 30px;
+}
+
+.content h3 {
+  font-size: 28px;
 }
 
 .content p {
